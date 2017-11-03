@@ -1,0 +1,33 @@
+{
+  "name": "TestNativeModules",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "credit-card-type": "^6.0.0",
+    "creditcardutils": "^1.0.0",
+    "react": "16.0.0-beta.5",
+    "react-native": "0.49.3",
+    "react-native-credit-card-input": "^0.3.3",
+    "react-native-elements": "^0.17.0",
+    "react-native-indicator": "^0.6.8",
+    "react-native-keyboard-aware-scroll-view": "^0.3.0",
+    "react-native-picker": "^4.2.0",
+    "react-native-sensitive-info": "^5.1.0",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-textinput-utils": "^0.3.7",
+    "react-native-vector-icons": "^4.4.2"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0-beta.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
